@@ -50,7 +50,7 @@ Point at each log line:
 > "The Librarian indexes 42 files line by line. The Rules agent reads the **contract first**: what may be said, who must approve, and which words are banned. The Results agent picks the KPI definitions from the signed requirements. The Calculator is plain code: it computes all 44 numbers from the raw CSVs, so no number comes from the language model. Exposure scans for anything identifying, including GPS hidden inside image files. The Writers produce the outputs, and Media draws the charts. The Verifier checks every line: zero problems. The Gate assembles the pack, hashes it, and **stops**."
 
 Say this before anyone asks:
-> "The log says RECORDED for the LLM agents. There was no API key on this laptop, so those agents ran through Claude with the exact prompts in `engine/prompts/`, and the engine replays their saved output. With a key the same calls go live, including a fixer agent that gets refused lines back from the verifier. The code agents run live every time."
+> "The log says RECORDED for the LLM agents. There was no API key on this laptop, so those agents' outputs were written with the exact prompts in `engine/prompts/`, and the engine replays them. With a Gemini 3 key in `.env` the same calls go live, including a fixer agent that gets refused lines back from the verifier. The code agents run live every time."
 
 ---
 
@@ -208,7 +208,7 @@ Close with pitch slide 3:
 
 | Question | Answer |
 | --- | --- |
-| "Did an LLM actually run?" | The judgement agents ran through Claude with the prompts in `engine/prompts/`; their outputs are saved and replayed (RECORDED). With an API key the same calls run live, plus the fixer loop. All maths, scanning, verification and gating is code and runs live. |
+| "Did an LLM actually run?" | The judgement agents' outputs were written with the prompts in `engine/prompts/` and are replayed (RECORDED), because there was no key here. With `GEMINI_API_KEY` in `.env` the same calls run live on Gemini 3, plus the fixer loop. All maths, scanning, verification and gating is code and runs live. |
 | "How do you stop hallucinated numbers?" | The LLM never computes. It writes a metric spec, and code runs it. The verifier then checks every number against the cited line or calculation, and checks the citation is relevant. |
 | "What can the verifier miss?" | Full sentence meaning and date values (dates still need a citation). That's why there's a human internal approval. |
 | "Why 69% and not 74%?" | 74% is the announced walk score. The signed requirements set the camera-measured first two weeks (68.9%) as the baseline. |

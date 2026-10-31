@@ -4,13 +4,13 @@ Turns one project's document library into a case study the buyer believes and th
 would sign: story spine, results sheet, exposure report, three-reader case study, media pack and approval request.
 Every line is traced, every number is computed by code with its working, and nothing leaves without the right human approvals.
 
-**New here?** Read `CLAUDE.md` (quick context), then `DOCUMENTATION.md` (full design). `DATA.md` lists every data file used.
+**New here?** Read `DOCUMENTATION.md` (full design) and `DATA.md` (every data file used). For live AI calls, copy `.env.example` to `.env` and add a Gemini 3 key.
 
 ## Quick start
 ```bash
 pip install -r requirements.txt
 ```
-Unzip the project library (confidential, from the hackathon organisers) to `library/Project_Drishti_Library/`, then:
+The project library is included at `library/Project_Drishti_Library/` (confidential: keep this repository private). Then:
 ```bash
 python engine/run.py build --project drishti
 ```

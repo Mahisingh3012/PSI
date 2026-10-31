@@ -2,6 +2,7 @@
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
@@ -47,20 +48,23 @@ def main():
     browser = next((b for b in BROWSERS if b and Path(b).exists()), None)
     if not browser:
         raise SystemExit("Edge or Chrome not found; open the .md files in any Markdown viewer and print to PDF instead.")
-    for name in DOCS:
-        src = ROOT / name
+    args = sys.argv[1:]  # optional: files to convert, and --out <dir> (default docs_pdf/)
+    out_dir = Path(args[args.index("--out") + 1]) if "--out" in args else ROOT / "docs_pdf"
+    files = [a for i, a in enumerate(args) if a != "--out" and (i == 0 or args[i - 1] != "--out")] or DOCS
+    for name in files:
+        src = Path(name) if Path(name).is_absolute() else ROOT / name
         body = markdown.markdown(_normalise(src.read_text(encoding="utf-8")), extensions=["tables", "fenced_code"])
         page = (f"<!doctype html><html><head><meta charset='utf-8'><title>{src.stem}</title>"
                 f"<style>{CSS}{ONE_PAGE.get(name, '')}</style></head><body>{body}</body></html>")
         with tempfile.TemporaryDirectory() as tmp:
             html_file = Path(tmp) / f"{src.stem}.html"
             html_file.write_text(page, encoding="utf-8")
-            out = ROOT / "docs_pdf" / f"{src.stem}.pdf"
-            out.parent.mkdir(exist_ok=True)
+            out = out_dir / f"{src.stem}.pdf"
+            out.parent.mkdir(parents=True, exist_ok=True)
             subprocess.run([browser, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
                             f"--user-data-dir={Path(tmp) / 'profile'}", f"--print-to-pdf={out}", html_file.as_uri()],
                            check=True, capture_output=True, timeout=120)
-            print(f"{out.relative_to(ROOT)}  ({out.stat().st_size // 1024} KB)")
+            print(f"{out}  ({out.stat().st_size // 1024} KB)")
 
 
 if __name__ == "__main__":

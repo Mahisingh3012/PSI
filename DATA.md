@@ -1,11 +1,11 @@
 # Data used by this project
 
-## 1. The input: Project Drishti library (NOT in the repo)
+## 1. The input: Project Drishti library (included in this private repository)
 
 - **What:** `Project_Drishti_Library.zip`, the hackathon's fictional project library: 42 files, January to September 2026.
 - **Where it comes from:** the PanScience Innovation Hackathon organisers (31 Oct 2026). Brief: `PSI hackathon case study assignment.pdf`.
-- **Why it is not committed:** the rules say to treat the library as confidential and not to share or upload it. Get it from the organisers.
-- **Where to put it:** unzip so that this folder exists:
+- **Confidential:** the hackathon rules say to treat the library as confidential. It is included here so the project opens complete; keep this repository private and rotate credentials after use. The brief is in `library/PSI hackathon case study assignment.pdf`.
+- **Where it is:** already in this repository, at:
   ```
   library/Project_Drishti_Library/00_README.md
   ```
@@ -71,7 +71,7 @@ IDs are assigned by the Librarian agent in sorted path order. Citations in the o
 
 These agent outputs quote the confidential library (client and people names). Treat the repo as confidential too.
 
-## 3. What `build` regenerates (git-ignored)
+## 3. What `build` regenerates (committed so the project opens complete; rebuilt on every run)
 
 `evidence_index.*` (contains the full library text), `calc_ledger.*`, `exposure_scan.md`, `exposure_hits.json`,
 `media/`, `verifier_report.md`, `run_log.txt`, `pack/`, `pack_sha256.txt`, `viewer.html`. Approval records

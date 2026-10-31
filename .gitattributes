@@ -2,3 +2,4 @@
 *.pptx binary
 *.pdf binary
 *.png binary
+library/** -text

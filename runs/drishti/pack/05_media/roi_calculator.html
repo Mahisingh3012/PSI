@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gate ROI Calculator</title><style>
+:root{--bg:#fff;--ink:#1f2937;--muted:#6b7280;--acc:#2563eb;--card:#f3f4f6}
+@media (prefers-color-scheme:dark){:root{--bg:#111827;--ink:#f3f4f6;--muted:#9ca3af;--acc:#60a5fa;--card:#1f2937}}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif;max-width:640px;margin:0 auto;padding:16px}
+label{display:block;margin:12px 0 4px;color:var(--muted);font-size:14px}input{width:100%;padding:8px;font-size:16px;box-sizing:border-box}
+.out{background:var(--card);padding:16px;border-radius:8px;margin-top:16px}.big{font-size:28px;color:var(--acc);font-weight:700}
+small{color:var(--muted)}</style></head><body>
+<h1>What is a faster gate worth at your plant?</h1>
+<p>Fill in <b>your own</b> numbers. Nothing is sent anywhere; no client data is in this page. The starting values are examples only.</p>
+<label>Transporter detention you pay per month (Rs lakh)</label><input id="det" type="number" value="10">
+<label>Reduction you expect (%) - our reference plant saw detention fall by about two thirds in one month (ASSUMED: that month is the client finance team's estimate), with its own weighbridge and dispatch-slot changes doing part of the work</label><input id="red" type="number" value="30">
+<label>Share you credit to the analytics (%)</label><input id="share" type="number" value="50">
+<label>One-time project cost (Rs lakh)</label><input id="cost" type="number" value="80">
+<label>Yearly support cost (Rs lakh)</label><input id="amc" type="number" value="12">
+<div class="out"><div>Credited saving per year</div><div class="big" id="sav">-</div><div>Simple payback</div><div class="big" id="pb">-</div>
+<small>ASSUMED inputs are yours. Safety outcomes are deliberately not monetised here.</small></div>
+<script>
+const v=id=>parseFloat(document.getElementById(id).value)||0;
+function calc(){const s=v('det')*12*v('red')/100*v('share')/100, net=s-v('amc');
+document.getElementById('sav').textContent='Rs '+s.toFixed(1)+' lakh';
+document.getElementById('pb').textContent=net>0?(v('cost')/net*12).toFixed(0)+' months':'not paid back on gate alone';}
+document.querySelectorAll('input').forEach(i=>i.addEventListener('input',calc));calc();
+</script></body></html>

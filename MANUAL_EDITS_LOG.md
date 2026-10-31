@@ -1,9 +1,9 @@
 # Manual edits log
 
-How the judgement-agent outputs in `runs/drishti/agent_outputs/` were produced: no Anthropic API key was available on
+How the judgement-agent outputs in `runs/drishti/agent_outputs/` were produced: no LLM API key was available on
 this machine, so the Rules, Results-spec, Exposure, Timeline, Writer and Approval agents were run by Claude (Opus 5.5)
 in Claude Code, following the prompts in `engine/prompts/`. The engine replays those saved outputs (the run log marks
-them RECORDED) and runs every deterministic agent live. With `ANTHROPIC_API_KEY` set, the same prompts are sent to the API.
+them RECORDED) and runs every deterministic agent live. With `GEMINI_API_KEY` set (in `.env`), the same prompts are sent live to Google Gemini 3.
 
 | # | File | Edit | Why | By |
 | --- | --- | --- | --- | --- |

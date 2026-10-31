@@ -1,0 +1,3734 @@
+[
+ {
+  "doc": "D01",
+  "line": 1,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D01",
+  "line": 4,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D01",
+  "line": 4,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D01",
+  "line": 4,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D01",
+  "line": 5,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D02",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D02",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D02",
+  "line": 5,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D02",
+  "line": 6,
+  "kind": "po_or_contract_no",
+  "match": "ACWL/LGL/MSA/2026/0112"
+ },
+ {
+  "doc": "D02",
+  "line": 6,
+  "kind": "client_name",
+  "match": "ACWL"
+ },
+ {
+  "doc": "D03",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D03",
+  "line": 3,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D03",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D03",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D03",
+  "line": 5,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 5,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D03",
+  "line": 5,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D03",
+  "line": 6,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D03",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D03",
+  "line": 8,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D03",
+  "line": 10,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D03",
+  "line": 10,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 14,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 16,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D03",
+  "line": 18,
+  "kind": "supplier",
+  "match": "Hikvision"
+ },
+ {
+  "doc": "D03",
+  "line": 18,
+  "kind": "supplier",
+  "match": "CP Plus"
+ },
+ {
+  "doc": "D03",
+  "line": 18,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 22,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 26,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 28,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D03",
+  "line": 30,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D03",
+  "line": 30,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 34,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 38,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D03",
+  "line": 40,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D03",
+  "line": 42,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D03",
+  "line": 46,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D03",
+  "line": 48,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D03",
+  "line": 50,
+  "kind": "capacity",
+  "match": "6.2 million-tonne"
+ },
+ {
+  "doc": "D03",
+  "line": 50,
+  "kind": "capacity",
+  "match": "6.2"
+ },
+ {
+  "doc": "D03",
+  "line": 50,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D03",
+  "line": 54,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D03",
+  "line": 56,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D03",
+  "line": 60,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D03",
+  "line": 62,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D03",
+  "line": 64,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D03",
+  "line": 66,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D04",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D04",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D04",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D04",
+  "line": 6,
+  "kind": "po_or_contract_no",
+  "match": "ACWL-BHD-EHS-2026-07"
+ },
+ {
+  "doc": "D04",
+  "line": 6,
+  "kind": "client_name",
+  "match": "ACWL"
+ },
+ {
+  "doc": "D04",
+  "line": 7,
+  "kind": "email",
+  "match": "lokesh.jain@ardentcement.example"
+ },
+ {
+  "doc": "D04",
+  "line": 7,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D04",
+  "line": 22,
+  "kind": "supplier",
+  "match": "Hikvision"
+ },
+ {
+  "doc": "D04",
+  "line": 22,
+  "kind": "supplier",
+  "match": "CP Plus"
+ },
+ {
+  "doc": "D04",
+  "line": 29,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D04",
+  "line": 31,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D05",
+  "line": 3,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D05",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D05",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D05",
+  "line": 5,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D05",
+  "line": 5,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D05",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D05",
+  "line": 7,
+  "kind": "po_or_contract_no",
+  "match": "ACWL-BHD-EHS-2026-07"
+ },
+ {
+  "doc": "D05",
+  "line": 7,
+  "kind": "client_name",
+  "match": "ACWL"
+ },
+ {
+  "doc": "D05",
+  "line": 11,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D05",
+  "line": 11,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D05",
+  "line": 17,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D05",
+  "line": 28,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D05",
+  "line": 42,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D05",
+  "line": 52,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D06",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D06",
+  "line": 6,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D06",
+  "line": 6,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D06",
+  "line": 6,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D06",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D06",
+  "line": 7,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D06",
+  "line": 18,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D06",
+  "line": 25,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D06",
+  "line": 26,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D06",
+  "line": 27,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D06",
+  "line": 28,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D06",
+  "line": 60,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D06",
+  "line": 60,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D06",
+  "line": 60,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D06",
+  "line": 60,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D06",
+  "line": 60,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D07",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D07",
+  "line": 7,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D07",
+  "line": 7,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D07",
+  "line": 14,
+  "kind": "person",
+  "match": "Pooja Menon"
+ },
+ {
+  "doc": "D07",
+  "line": 22,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D07",
+  "line": 24,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D08",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D08",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D08",
+  "line": 3,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D08",
+  "line": 5,
+  "kind": "tax_id",
+  "match": "GSTIN 22AAACAXXXXX1Z5"
+ },
+ {
+  "doc": "D08",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D08",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D08",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D08",
+  "line": 6,
+  "kind": "tax_id",
+  "match": "GSTIN 07AANCPXXXXX1ZN"
+ },
+ {
+  "doc": "D08",
+  "line": 8,
+  "kind": "po_or_contract_no",
+  "match": "4500128773"
+ },
+ {
+  "doc": "D08",
+  "line": 18,
+  "kind": "po_or_contract_no",
+  "match": "4500131902"
+ },
+ {
+  "doc": "D08",
+  "line": 29,
+  "kind": "po_or_contract_no",
+  "match": "4500131902"
+ },
+ {
+  "doc": "D08",
+  "line": 33,
+  "kind": "po_or_contract_no",
+  "match": "4500135510"
+ },
+ {
+  "doc": "D08",
+  "line": 37,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D08",
+  "line": 42,
+  "kind": "po_or_contract_no",
+  "match": "CAPEX/BHD/26-27/014"
+ },
+ {
+  "doc": "D09",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D09",
+  "line": 5,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D09",
+  "line": 5,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D09",
+  "line": 28,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D09",
+  "line": 28,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D09",
+  "line": 33,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D10",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D10",
+  "line": 5,
+  "kind": "po_or_contract_no",
+  "match": "4500131902"
+ },
+ {
+  "doc": "D10",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D10",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D10",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D10",
+  "line": 19,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D10",
+  "line": 19,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D10",
+  "line": 26,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D10",
+  "line": 26,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D10",
+  "line": 26,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D10",
+  "line": 26,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D11",
+  "line": 7,
+  "kind": "camera_id",
+  "match": "PK2-07"
+ },
+ {
+  "doc": "D11",
+  "line": 7,
+  "kind": "camera_id",
+  "match": "PK2-09"
+ },
+ {
+  "doc": "D11",
+  "line": 27,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D11",
+  "line": 28,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D12",
+  "line": 3,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D12",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D12",
+  "line": 5,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D12",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 5,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D12",
+  "line": 5,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D12",
+  "line": 6,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D12",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D12",
+  "line": 7,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D12",
+  "line": 7,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D12",
+  "line": 9,
+  "kind": "site",
+  "match": "Jharsa"
+ },
+ {
+  "doc": "D12",
+  "line": 9,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D12",
+  "line": 9,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 13,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 13,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 17,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 17,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 21,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 21,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 23,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D12",
+  "line": 25,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 25,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 27,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D12",
+  "line": 29,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 29,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 31,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D12",
+  "line": 35,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D12",
+  "line": 37,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 37,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 39,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 39,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 43,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D12",
+  "line": 47,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D12",
+  "line": 47,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D12",
+  "line": 49,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D12",
+  "line": 49,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D13",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D13",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D13",
+  "line": 5,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D13",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D13",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D13",
+  "line": 5,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D13",
+  "line": 5,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D13",
+  "line": 5,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D13",
+  "line": 6,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D13",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D13",
+  "line": 16,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D13",
+  "line": 20,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D13",
+  "line": 22,
+  "kind": "code_name",
+  "match": "Suraksha Saptah"
+ },
+ {
+  "doc": "D13",
+  "line": 22,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D13",
+  "line": 22,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D13",
+  "line": 24,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D13",
+  "line": 26,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D13",
+  "line": 26,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D13",
+  "line": 28,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D13",
+  "line": 30,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D13",
+  "line": 32,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D13",
+  "line": 34,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D13",
+  "line": 36,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D13",
+  "line": 38,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D13",
+  "line": 38,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D13",
+  "line": 40,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D13",
+  "line": 42,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D13",
+  "line": 44,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D13",
+  "line": 46,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D13",
+  "line": 48,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D13",
+  "line": 48,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D13",
+  "line": 50,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D13",
+  "line": 52,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D13",
+  "line": 52,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D14",
+  "line": 3,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D14",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D14",
+  "line": 5,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D14",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D14",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D14",
+  "line": 5,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D14",
+  "line": 5,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D14",
+  "line": 5,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D14",
+  "line": 6,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D14",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D14",
+  "line": 8,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D14",
+  "line": 10,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D14",
+  "line": 14,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D14",
+  "line": 14,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D14",
+  "line": 18,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D14",
+  "line": 20,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D14",
+  "line": 22,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D14",
+  "line": 26,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D14",
+  "line": 30,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D14",
+  "line": 32,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D14",
+  "line": 32,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D14",
+  "line": 32,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D14",
+  "line": 34,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D14",
+  "line": 34,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D14",
+  "line": 34,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D14",
+  "line": 36,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D14",
+  "line": 36,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D14",
+  "line": 38,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D14",
+  "line": 40,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D14",
+  "line": 42,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D14",
+  "line": 42,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D14",
+  "line": 44,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D14",
+  "line": 46,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D14",
+  "line": 48,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D14",
+  "line": 50,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D15",
+  "line": 3,
+  "kind": "email",
+  "match": "arvind.rao@ardentcement.example"
+ },
+ {
+  "doc": "D15",
+  "line": 3,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D15",
+  "line": 4,
+  "kind": "email",
+  "match": "hello@predco.ai"
+ },
+ {
+  "doc": "D15",
+  "line": 4,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D15",
+  "line": 10,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D15",
+  "line": 17,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D15",
+  "line": 19,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D15",
+  "line": 19,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D15",
+  "line": 19,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D15",
+  "line": 19,
+  "kind": "location",
+  "match": "Chhattisgarh"
+ },
+ {
+  "doc": "D15",
+  "line": 20,
+  "kind": "phone",
+  "match": "+91 98XXX 41207"
+ },
+ {
+  "doc": "D15",
+  "line": 24,
+  "kind": "email",
+  "match": "aarav.m@predco.ai"
+ },
+ {
+  "doc": "D15",
+  "line": 24,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D15",
+  "line": 24,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D15",
+  "line": 25,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D15",
+  "line": 26,
+  "kind": "email",
+  "match": "neha.s@predco.ai"
+ },
+ {
+  "doc": "D15",
+  "line": 26,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D16",
+  "line": 3,
+  "kind": "email",
+  "match": "farhan.s@ardentcement.example"
+ },
+ {
+  "doc": "D16",
+  "line": 3,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D16",
+  "line": 5,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D16",
+  "line": 7,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D16",
+  "line": 7,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D16",
+  "line": 24,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D16",
+  "line": 26,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D16",
+  "line": 26,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D16",
+  "line": 41,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D16",
+  "line": 43,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D16",
+  "line": 43,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D17",
+  "line": 3,
+  "kind": "email",
+  "match": "arvind.rao@ardentcement.example"
+ },
+ {
+  "doc": "D17",
+  "line": 3,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D17",
+  "line": 4,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D17",
+  "line": 5,
+  "kind": "email",
+  "match": "meenakshi.iyer@ardentcement.example"
+ },
+ {
+  "doc": "D17",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D17",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D17",
+  "line": 7,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D17",
+  "line": 11,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D17",
+  "line": 13,
+  "kind": "site",
+  "match": "Jharsa"
+ },
+ {
+  "doc": "D17",
+  "line": 13,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D17",
+  "line": 13,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D17",
+  "line": 17,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D17",
+  "line": 23,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D17",
+  "line": 23,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D17",
+  "line": 25,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D17",
+  "line": 35,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D18",
+  "line": 3,
+  "kind": "email",
+  "match": "pooja.menon@ardentcement.example"
+ },
+ {
+  "doc": "D18",
+  "line": 3,
+  "kind": "location",
+  "match": "Mumbai"
+ },
+ {
+  "doc": "D18",
+  "line": 3,
+  "kind": "person",
+  "match": "Pooja Menon"
+ },
+ {
+  "doc": "D18",
+  "line": 4,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D18",
+  "line": 4,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D18",
+  "line": 4,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D18",
+  "line": 5,
+  "kind": "person",
+  "match": "Farhan Siddiqui"
+ },
+ {
+  "doc": "D18",
+  "line": 5,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D18",
+  "line": 7,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D18",
+  "line": 23,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D18",
+  "line": 25,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D18",
+  "line": 36,
+  "kind": "person",
+  "match": "Pooja Menon"
+ },
+ {
+  "doc": "D18",
+  "line": 38,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D18",
+  "line": 47,
+  "kind": "email",
+  "match": "karthik.r@predco.ai"
+ },
+ {
+  "doc": "D18",
+  "line": 47,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D18",
+  "line": 49,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D19",
+  "line": 3,
+  "kind": "email",
+  "match": "aarav.m@predco.ai"
+ },
+ {
+  "doc": "D19",
+  "line": 3,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D19",
+  "line": 3,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D19",
+  "line": 4,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D19",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D19",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D19",
+  "line": 5,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D19",
+  "line": 7,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D19",
+  "line": 19,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D19",
+  "line": 26,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D19",
+  "line": 26,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D19",
+  "line": 27,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D19",
+  "line": 28,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D19",
+  "line": 28,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D19",
+  "line": 30,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D19",
+  "line": 44,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D19",
+  "line": 50,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D19",
+  "line": 52,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D20",
+  "line": 3,
+  "kind": "email",
+  "match": "sana.q@predco.ai"
+ },
+ {
+  "doc": "D20",
+  "line": 3,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D20",
+  "line": 4,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D20",
+  "line": 5,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D20",
+  "line": 7,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0131"
+ },
+ {
+  "doc": "D20",
+  "line": 7,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0158"
+ },
+ {
+  "doc": "D20",
+  "line": 19,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D20",
+  "line": 21,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0131"
+ },
+ {
+  "doc": "D20",
+  "line": 21,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0158"
+ },
+ {
+  "doc": "D20",
+  "line": 25,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D20",
+  "line": 27,
+  "kind": "po_or_contract_no",
+  "match": "CAPEX/BHD/26-27/014"
+ },
+ {
+  "doc": "D20",
+  "line": 33,
+  "kind": "person",
+  "match": "Lokesh Jain"
+ },
+ {
+  "doc": "D20",
+  "line": 35,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0131"
+ },
+ {
+  "doc": "D20",
+  "line": 35,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0158"
+ },
+ {
+  "doc": "D21",
+  "line": 3,
+  "kind": "email",
+  "match": "sunil.kedia@ardentcement.example"
+ },
+ {
+  "doc": "D21",
+  "line": 3,
+  "kind": "person",
+  "match": "Sunil Kedia"
+ },
+ {
+  "doc": "D21",
+  "line": 4,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D21",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D21",
+  "line": 5,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D21",
+  "line": 7,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D21",
+  "line": 16,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D21",
+  "line": 17,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D21",
+  "line": 31,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D22",
+  "line": 3,
+  "kind": "email",
+  "match": "aarav.m@predco.ai"
+ },
+ {
+  "doc": "D22",
+  "line": 3,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D22",
+  "line": 3,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D22",
+  "line": 4,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D22",
+  "line": 11,
+  "kind": "public_link",
+  "match": "cement major"
+ },
+ {
+  "doc": "D22",
+  "line": 13,
+  "kind": "location",
+  "match": "Mumbai"
+ },
+ {
+  "doc": "D22",
+  "line": 20,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D22",
+  "line": 21,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D22",
+  "line": 22,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D22",
+  "line": 22,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D22",
+  "line": 22,
+  "kind": "person",
+  "match": "Pooja Menon"
+ },
+ {
+  "doc": "D22",
+  "line": 29,
+  "kind": "public_link",
+  "match": "cement major"
+ },
+ {
+  "doc": "D22",
+  "line": 35,
+  "kind": "person",
+  "match": "Pooja Menon"
+ },
+ {
+  "doc": "D22",
+  "line": 36,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D22",
+  "line": 37,
+  "kind": "person",
+  "match": "Rajiv Bhandari"
+ },
+ {
+  "doc": "D22",
+  "line": 37,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D22",
+  "line": 37,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D22",
+  "line": 37,
+  "kind": "person",
+  "match": "Ritu Saxena"
+ },
+ {
+  "doc": "D22",
+  "line": 44,
+  "kind": "person",
+  "match": "Ritu Saxena"
+ },
+ {
+  "doc": "D22",
+  "line": 55,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D22",
+  "line": 55,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D22",
+  "line": 56,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D23",
+  "line": 2,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 3,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 4,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 5,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 6,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 7,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 8,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 9,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 10,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 11,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 13,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 14,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 15,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 16,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 19,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 20,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 21,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 22,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 23,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 24,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 25,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 26,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 27,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 28,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 29,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 30,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 31,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 32,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 33,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 34,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 35,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 36,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 37,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 38,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 39,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 41,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 42,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 43,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 44,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 47,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 48,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 49,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 50,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 51,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 52,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 53,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 54,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 55,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 56,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 57,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 58,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 59,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 60,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 61,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 62,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 63,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 64,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 65,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 66,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 67,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 68,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 69,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 70,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 71,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 72,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 73,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 74,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 76,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 77,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 79,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 80,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 81,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 83,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 84,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 85,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 86,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 87,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 88,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 89,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 90,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 91,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 92,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 93,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 95,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 97,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 98,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 99,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 100,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 101,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 102,
+  "kind": "person",
+  "match": "R. Kujur"
+ },
+ {
+  "doc": "D23",
+  "line": 103,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D23",
+  "line": 104,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D24",
+  "line": 34,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D24",
+  "line": 34,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D25",
+  "line": 17,
+  "kind": "code_name",
+  "match": "Suraksha Saptah"
+ },
+ {
+  "doc": "D26",
+  "line": 72,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D27",
+  "line": 2,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0041"
+ },
+ {
+  "doc": "D27",
+  "line": 2,
+  "kind": "po_or_contract_no",
+  "match": "4500128773"
+ },
+ {
+  "doc": "D27",
+  "line": 3,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0077"
+ },
+ {
+  "doc": "D27",
+  "line": 3,
+  "kind": "po_or_contract_no",
+  "match": "4500131902"
+ },
+ {
+  "doc": "D27",
+  "line": 4,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0131"
+ },
+ {
+  "doc": "D27",
+  "line": 4,
+  "kind": "po_or_contract_no",
+  "match": "4500131902"
+ },
+ {
+  "doc": "D27",
+  "line": 5,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0158"
+ },
+ {
+  "doc": "D27",
+  "line": 5,
+  "kind": "po_or_contract_no",
+  "match": "4500135510"
+ },
+ {
+  "doc": "D27",
+  "line": 6,
+  "kind": "po_or_contract_no",
+  "match": "PC/26-27/0219"
+ },
+ {
+  "doc": "D27",
+  "line": 6,
+  "kind": "po_or_contract_no",
+  "match": "4500135510"
+ },
+ {
+  "doc": "D27",
+  "line": 6,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D30",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D30",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D30",
+  "line": 6,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D31",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D31",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D31",
+  "line": 4,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D31",
+  "line": 6,
+  "kind": "capacity",
+  "match": "6.2"
+ },
+ {
+  "doc": "D31",
+  "line": 8,
+  "kind": "ip_address",
+  "match": "10.20.4.11"
+ },
+ {
+  "doc": "D31",
+  "line": 8,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 9,
+  "kind": "ip_address",
+  "match": "10.20.4.12"
+ },
+ {
+  "doc": "D31",
+  "line": 9,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 10,
+  "kind": "ip_address",
+  "match": "10.20.4.13"
+ },
+ {
+  "doc": "D31",
+  "line": 10,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 11,
+  "kind": "ip_address",
+  "match": "10.20.4.15"
+ },
+ {
+  "doc": "D31",
+  "line": 11,
+  "kind": "url_or_repo",
+  "match": "http://10.20.4.15:8080/drishti\"}"
+ },
+ {
+  "doc": "D31",
+  "line": 11,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 13,
+  "kind": "ip_address",
+  "match": "192.168.40.2"
+ },
+ {
+  "doc": "D31",
+  "line": 13,
+  "kind": "supplier",
+  "match": "Hikvision"
+ },
+ {
+  "doc": "D31",
+  "line": 14,
+  "kind": "ip_address",
+  "match": "192.168.40.3"
+ },
+ {
+  "doc": "D31",
+  "line": 14,
+  "kind": "supplier",
+  "match": "Hikvision"
+ },
+ {
+  "doc": "D31",
+  "line": 16,
+  "kind": "ip_address",
+  "match": "192.168.40.27"
+ },
+ {
+  "doc": "D31",
+  "line": 16,
+  "kind": "url_or_repo",
+  "match": "rtsp://drishti:${NVR_PASS}@192.168.40.27:554/Streaming/Channels/102\","
+ },
+ {
+  "doc": "D31",
+  "line": 16,
+  "kind": "camera_id",
+  "match": "PK2-07"
+ },
+ {
+  "doc": "D31",
+  "line": 16,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 17,
+  "kind": "ip_address",
+  "match": "192.168.40.63"
+ },
+ {
+  "doc": "D31",
+  "line": 17,
+  "kind": "url_or_repo",
+  "match": "rtsp://drishti:${NVR_PASS}@192.168.40.63:554/Streaming/Channels/102\","
+ },
+ {
+  "doc": "D31",
+  "line": 17,
+  "kind": "camera_id",
+  "match": "CV-TP-03"
+ },
+ {
+  "doc": "D31",
+  "line": 17,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 18,
+  "kind": "ip_address",
+  "match": "192.168.40.81"
+ },
+ {
+  "doc": "D31",
+  "line": 18,
+  "kind": "url_or_repo",
+  "match": "rtsp://drishti:${NVR_PASS}@192.168.40.81:554/Streaming/Channels/102\","
+ },
+ {
+  "doc": "D31",
+  "line": 18,
+  "kind": "camera_id",
+  "match": "KL-IN-01"
+ },
+ {
+  "doc": "D31",
+  "line": 18,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 21,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D31",
+  "line": 25,
+  "kind": "url_or_repo",
+  "match": "sap-pi://BHD-WB/01,02\""
+ },
+ {
+  "doc": "D32",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D32",
+  "line": 5,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D33",
+  "line": 5,
+  "kind": "camera_id",
+  "match": "CM3-01"
+ },
+ {
+  "doc": "D33",
+  "line": 5,
+  "kind": "camera_id",
+  "match": "CM3-06"
+ },
+ {
+  "doc": "D33",
+  "line": 6,
+  "kind": "camera_id",
+  "match": "ST-01"
+ },
+ {
+  "doc": "D33",
+  "line": 6,
+  "kind": "camera_id",
+  "match": "ST-10"
+ },
+ {
+  "doc": "D33",
+  "line": 6,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D33",
+  "line": 7,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D33",
+  "line": 23,
+  "kind": "camera_id",
+  "match": "PK1-03"
+ },
+ {
+  "doc": "D33",
+  "line": 23,
+  "kind": "camera_id",
+  "match": "PK1-05"
+ },
+ {
+  "doc": "D33",
+  "line": 23,
+  "kind": "camera_id",
+  "match": "PK2-07"
+ },
+ {
+  "doc": "D33",
+  "line": 23,
+  "kind": "camera_id",
+  "match": "PK2-09"
+ },
+ {
+  "doc": "D34",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D34",
+  "line": 3,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D34",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D34",
+  "line": 5,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D34",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D34",
+  "line": 5,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D34",
+  "line": 6,
+  "kind": "url_or_repo",
+  "match": "github.com/predco-delivery/ardent-drishti-edge"
+ },
+ {
+  "doc": "D34",
+  "line": 6,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D34",
+  "line": 6,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D34",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D34",
+  "line": 10,
+  "kind": "ip_address",
+  "match": "10.20.4.11"
+ },
+ {
+  "doc": "D34",
+  "line": 10,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D34",
+  "line": 13,
+  "kind": "ip_address",
+  "match": "10.20.4.15"
+ },
+ {
+  "doc": "D34",
+  "line": 15,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D34",
+  "line": 26,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D35",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D35",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D35",
+  "line": 3,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D35",
+  "line": 3,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D35",
+  "line": 5,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D35",
+  "line": 7,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D35",
+  "line": 12,
+  "kind": "public_link",
+  "match": "uncomfortable number first"
+ },
+ {
+  "doc": "D35",
+  "line": 12,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D35",
+  "line": 18,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D35",
+  "line": 18,
+  "kind": "person",
+  "match": "Arvind Rao"
+ },
+ {
+  "doc": "D35",
+  "line": 18,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D36",
+  "line": 2,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D36",
+  "line": 2,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D36",
+  "line": 4,
+  "kind": "camera_id",
+  "match": "PK2-07"
+ },
+ {
+  "doc": "D36",
+  "line": 4,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D36",
+  "line": 5,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D36",
+  "line": 6,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D36",
+  "line": 6,
+  "kind": "person",
+  "match": "Mahto"
+ },
+ {
+  "doc": "D36",
+  "line": 7,
+  "kind": "camera_id",
+  "match": "PK1-02"
+ },
+ {
+  "doc": "D36",
+  "line": 7,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D36",
+  "line": 8,
+  "kind": "person",
+  "match": "Ravi K"
+ },
+ {
+  "doc": "D36",
+  "line": 9,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D36",
+  "line": 9,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D36",
+  "line": 10,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D36",
+  "line": 11,
+  "kind": "camera_id",
+  "match": "PK3-01"
+ },
+ {
+  "doc": "D36",
+  "line": 11,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D36",
+  "line": 12,
+  "kind": "camera_id",
+  "match": "PK3-01"
+ },
+ {
+  "doc": "D36",
+  "line": 12,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D36",
+  "line": 13,
+  "kind": "person",
+  "match": "S. Verma"
+ },
+ {
+  "doc": "D36",
+  "line": 15,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D36",
+  "line": 15,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D36",
+  "line": 16,
+  "kind": "person",
+  "match": "Ravi K"
+ },
+ {
+  "doc": "D36",
+  "line": 17,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D36",
+  "line": 18,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D36",
+  "line": 18,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D36",
+  "line": 19,
+  "kind": "person",
+  "match": "Ravi K"
+ },
+ {
+  "doc": "D36",
+  "line": 20,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D36",
+  "line": 22,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D36",
+  "line": 22,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D36",
+  "line": 22,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D36",
+  "line": 23,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D36",
+  "line": 24,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D36",
+  "line": 24,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D36",
+  "line": 25,
+  "kind": "site",
+  "match": "Jharsa"
+ },
+ {
+  "doc": "D36",
+  "line": 25,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D36",
+  "line": 25,
+  "kind": "person",
+  "match": "Dinesh Patel"
+ },
+ {
+  "doc": "D36",
+  "line": 26,
+  "kind": "person",
+  "match": "Ravi K"
+ },
+ {
+  "doc": "D36",
+  "line": 27,
+  "kind": "person",
+  "match": "Meenakshi Iyer"
+ },
+ {
+  "doc": "D36",
+  "line": 27,
+  "kind": "person",
+  "match": "Meenakshi"
+ },
+ {
+  "doc": "D40",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent Cement Works"
+ },
+ {
+  "doc": "D40",
+  "line": 3,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D40",
+  "line": 7,
+  "kind": "location",
+  "match": "central India"
+ },
+ {
+  "doc": "D40",
+  "line": 7,
+  "kind": "public_link",
+  "match": "fourth-largest"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "capacity",
+  "match": "6.2 MTPA"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "capacity",
+  "match": "4.1 MTPA"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "capacity",
+  "match": "3.5 MTPA"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "site",
+  "match": "Jharsa"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "site",
+  "match": "Kotri"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "location",
+  "match": "Chhattisgarh"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "location",
+  "match": "Odisha"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "location",
+  "match": "Madhya Pradesh"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "capacity",
+  "match": "MTPA"
+ },
+ {
+  "doc": "D40",
+  "line": 8,
+  "kind": "capacity",
+  "match": "6.2"
+ },
+ {
+  "doc": "D40",
+  "line": 11,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D40",
+  "line": 15,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D40",
+  "line": 15,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D40",
+  "line": 19,
+  "kind": "site",
+  "match": "Bhadrapur"
+ },
+ {
+  "doc": "D40",
+  "line": 19,
+  "kind": "location",
+  "match": "central India"
+ },
+ {
+  "doc": "D41",
+  "line": 5,
+  "kind": "public_link",
+  "match": "cement major"
+ },
+ {
+  "doc": "D41",
+  "line": 12,
+  "kind": "capacity",
+  "match": "6.2 MTPA"
+ },
+ {
+  "doc": "D41",
+  "line": 12,
+  "kind": "capacity",
+  "match": "MTPA"
+ },
+ {
+  "doc": "D41",
+  "line": 12,
+  "kind": "capacity",
+  "match": "6.2"
+ },
+ {
+  "doc": "D41",
+  "line": 12,
+  "kind": "capacity",
+  "match": "146"
+ },
+ {
+  "doc": "D41",
+  "line": 13,
+  "kind": "public_link",
+  "match": "uncomfortable number first"
+ },
+ {
+  "doc": "D41",
+  "line": 13,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D41",
+  "line": 15,
+  "kind": "client_name",
+  "match": "Ardent"
+ },
+ {
+  "doc": "D42",
+  "line": 5,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D42",
+  "line": 6,
+  "kind": "vendor",
+  "match": "PredCo"
+ },
+ {
+  "doc": "D42",
+  "line": 9,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D42",
+  "line": 13,
+  "kind": "vendor_person",
+  "match": "Aarav Malhotra"
+ },
+ {
+  "doc": "D42",
+  "line": 26,
+  "kind": "code_name",
+  "match": "Drishti"
+ },
+ {
+  "doc": "D37",
+  "line": 0,
+  "kind": "image_pixels_need_human_review",
+  "match": "10_media/architecture_as_built_revC.png"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_gps",
+  "match": "{\"GPSLatitudeRef\": \"N\", \"GPSLatitude\": \"(21.0, 50.0, 3.01)\", \"GPSLongitudeRef\": "
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_exif_Model",
+  "match": "DS-2CD2T47G2"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_exif_ImageDescription",
+  "match": "Bhadrapur PK2 cam 07 export for Drishti review"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_exif_Make",
+  "match": "Hikvision"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_info_jfif",
+  "match": "257"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_info_jfif_version",
+  "match": "(1, 1)"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_info_jfif_unit",
+  "match": "0"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_info_jfif_density",
+  "match": "(1, 1)"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_info_dpi",
+  "match": "(72, 72)"
+ },
+ {
+  "doc": "D38",
+  "line": 0,
+  "kind": "image_pixels_need_human_review",
+  "match": "10_media/cam_PK2-07_alert_snapshot_2026-06-29.jpg"
+ },
+ {
+  "doc": "D39",
+  "line": 0,
+  "kind": "image_info_Software",
+  "match": "Matplotlib version3.11.2, https://matplotlib.org/"
+ },
+ {
+  "doc": "D39",
+  "line": 0,
+  "kind": "image_info_dpi",
+  "match": "(110.00739999999999, 110.00739999999999)"
+ },
+ {
+  "doc": "D39",
+  "line": 0,
+  "kind": "image_pixels_need_human_review",
+  "match": "10_media/dashboard_export_ppe_weekly_2026-09-25.png"
+ }
+]

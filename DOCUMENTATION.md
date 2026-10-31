@@ -97,7 +97,7 @@ weeks 1–2"), and code does the maths. The LLM writes prose with citations, and
 | 8 | Gate | code | release OK / STOP with reasons | `agents/gate.py` |
 | – | Register | code | `runs/register.json|md` | `agents/register.py` |
 | – | Viewer | code | `viewer.html` | `agents/viewer.py` |
-| – | LLM wrapper | code | live Claude call or replay of saved output | `agents/llm.py` |
+| – | LLM wrapper | code | live Gemini 3 call or replay of saved output | `agents/llm.py` |
 
 All LLM agents also receive `prompts/00_shared_rules.md`:
 - cite everything, never compute, invent nothing;
@@ -133,13 +133,13 @@ Dates, times, version tags, IDs (K1, CR-03) and clause numbers are not treated a
 
 ```
 submission/
-├── README.md  DOCUMENTATION.md  DEMO_SCRIPT.md  PROCESS.md  DATA.md  CLAUDE.md
+├── README.md  DOCUMENTATION.md  DEMO_SCRIPT.md  PROCESS.md  DATA.md  .env.example
 ├── PROMPT_LOG.md  MANUAL_EDITS_LOG.md  PITCH.pptx  requirements.txt  docs_pdf/
 ├── engine/  run.py, agents/, prompts/
 ├── tests/test_engine.py           12 checks
 ├── demo/   make_bad_draft.py, reset_demo.py
 ├── scripts/ make_pitch.py, make_pdfs.py
-├── library/                       (not in git) the confidential project library
+├── library/                       the confidential project library + the brief (keep the repo private)
 └── runs/
     ├── register.json|md           all projects (local state)
     └── drishti/
@@ -156,7 +156,7 @@ submission/
 ```bash
 pip install -r requirements.txt
 ```
-Put the library at `library/Project_Drishti_Library/` (or pass `--library`).
+The library is in `library/Project_Drishti_Library/` (or pass `--library <folder>` for another project).
 
 | Action | Command | Result |
 | --- | --- | --- |
@@ -170,7 +170,7 @@ Put the library at `library/Project_Drishti_Library/` (or pass `--library`).
 | Refusal demo | `python demo/make_bad_draft.py` then `build --project drishti_bad` | refused, 6 problems |
 | Reset | `python demo/reset_demo.py` | clean demo state |
 
-Live LLM mode: set `ANTHROPIC_API_KEY` (optionally `CASE_ENGINE_MODEL`). Without a key the saved agent outputs are
+Live LLM mode (Google Gemini 3): copy `.env.example` to `.env` and set `GEMINI_API_KEY` (optionally `GEMINI_MODEL`; default `gemini-3-pro-preview`, falling back to `gemini-3-flash-preview`). Without a key the saved agent outputs are
 replayed and marked RECORDED.
 
 ---
@@ -273,11 +273,11 @@ replayed and marked RECORDED.
 | Rule | How |
 | --- | --- |
 | 1. Work alone | Built by one person with AI tools. Sharing with a teammate must wait until after judging (see section 13) |
-| 2. Any AI tools | Claude (Claude Code) is used and logged in PROMPT_LOG.md |
+| 2. Any AI tools | AI coding tools were used to build it and are logged in PROMPT_LOG.md; the engine's own LLM provider is Gemini 3 |
 | 3. Only the library for facts | Every claim cites a library line or a calc on library data; the verifier refuses anything else |
 | 4. Invent nothing | No invented results, quotes or people; quotes are only used where the transcript has them; the approval email is signed by a role from the library |
 | 5. Mark estimates ASSUMED | Enforced by the verifier (rules 5); the September detention figure, annualised saving and payback are all marked |
-| 6–7. Confidential, don't upload or share | The library is not in git; files regenerated from it are git-ignored; nothing was uploaded; outward text is anonymised |
+| 6–7. Confidential, don't upload or share | Outward text is anonymised; the repository holding the library is private, and credentials are rotated after use |
 | 8. Nothing leaves the room | Nothing published or sent; the gate blocks release by design |
 | 9. Complete and verified | Verifier 0 problems, 12 tests pass, every screen and command checked |
 
@@ -286,11 +286,11 @@ replayed and marked RECORDED.
 ## 13. Limitations and sharing
 
 **Limitations:**
-- In this run the LLM agents' outputs were produced through Claude with these prompts and replayed, because no API key was available. The code agents run live.
+- In this run no API key was available, so the LLM agents' outputs were written with these prompts in an AI coding tool (see PROMPT_LOG.md) and are replayed. With `GEMINI_API_KEY` set they run live on Gemini 3. The code agents always run live.
 - The verifier checks numbers, citation existence and relevance, identifiers and ASSUMED marking. It does not prove a sentence's full meaning or check date values; the internal human review covers that.
 - The media module is built for manufacturing. Other industries need their own (the writer prompt asks it to choose by industry).
 
 **Sharing:**
 - The hackathon rules say to work alone, to keep the library confidential and not share it, and that nothing leaves the room during the hackathon.
 - Share the repo with a teammate only **after** judging, and only with the organisers' agreement.
-- The library is not in the repo; the teammate needs their own copy (see DATA.md and CLAUDE.md).
+- The repository is private and includes the library; keep it private and rotate credentials after use (see DATA.md).
