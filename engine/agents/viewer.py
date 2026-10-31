@@ -126,7 +126,7 @@ def _render(text, index, ledger):
             label, tip, cls = f"C:{calc}", _tip_calc(ledger, calc), "cite calc"
         else:
             label, tip, cls = f"{doc}:L{a}{'-' + b if b else ''}", _tip_doc(index, doc, a, b), "cite"
-        chips.append(f'<span class="{cls}" tabindex="0">{html.escape(label)}<span class="tip">{html.escape(tip)}</span></span>')
+        chips.append(f'<span class="{cls}" tabindex="0">{html.escape(label)}<span class="tip" aria-hidden="true">{html.escape(tip)}</span></span>')
         return f"@@CHIP{len(chips) - 1}@@"
 
     text = CITE.sub(chip, text).replace("[NO-CLAIM]", "")

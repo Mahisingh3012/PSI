@@ -1,4 +1,4 @@
-# 4. Case study: anonymised version (traced copy; the clean copy strips the tags)
+# 4. Case study: anonymised version
 
 ## What happens on a cement plant floor when nobody announces the safety walk
 
@@ -43,7 +43,7 @@ Headline: real PPE compliance on camera rose from 69% to 91% in an eight-week pi
 Restricted-zone entries on the pilot cameras fell 46% during the pilot (target was 50%) and 77% after the plant added physical guards and the system added a pre-zone warning. [C:k2_change] [C:k2_change_sep] [D06:L14] [D10:L19-20]
 Truck turnaround at the gate fell 24%, from about 88 to about 68 minutes, measured on the same number-plate cameras throughout. [C:tat_k5_vs_anpr] [C:tat_v_first] [C:tat_v_slots]
 About 6 minutes of that came with a second weighbridge the client installed, and about 15 minutes after the logistics team started dispatch slots based on the live queue view. [C:tat_wb_effect] [C:tat_slot_effect] [D14:L28]
-The client's finance team measured transporter detention charges falling by about two thirds in September (ASSUMED: September is Finance's month-end estimate), and chose to credit the system with a share until a longer trend is in. [C:det_base] [C:det_sep] [D21:L16-18]
+Transporter detention charges were down by about two thirds in September (ASSUMED: September is Finance's month-end estimate); Finance chose to credit the system with a share until a longer trend is in. [C:det_base] [C:det_sep] [D21:L16-18]
 The finance team's simple payback, crediting half of the gate saving and nothing else, is a little over two years; this is ASSUMED, not measured. [C:payback_half_noamc] [D21:L31]
 Safety savings were deliberately not monetised: a few injury-free months are too short to prove anything. [D21:L24] [D14:L36]
 Path to scale: from 12 cameras to 40 to every existing camera in the plant in about six months, with new areas starting at 72% compliance and climbing to 87% by September. [D08:L12] [D08:L22] [D11:L28] [C:k1_scale_first] [C:k1_scale_sep]

@@ -132,6 +132,12 @@ def test_11_catches_drifted_citation_and_unmarked_estimate():
     unmarked = "Detention fell to 3.9 lakh a month. [C:det_sep]"
     assert any(p[1] == "ASSUMED_NOT_MARKED" for p in verify.verify(unmarked, INDEX, LEDGER))
     assert not verify.verify("ASSUMED: detention fell to 3.9 lakh a month. [C:det_sep]", INDEX, LEDGER)
+    clean = verify.strip_citations(
+        "| Question | Answer | Source |\n| --- | --- | --- |\n| Internet? | None from the edge | [D02:L42] |\n"
+    )
+    assert "[D02" not in clean and "[C:" not in clean and "[NO-CLAIM]" not in clean
+    assert "Source" not in clean
+    assert "None from the edge" in clean
 
 
 def test_12_register_records_a_no_and_keeps_history():

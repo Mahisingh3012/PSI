@@ -26,4 +26,8 @@ them RECORDED) and runs every deterministic agent live. With `GEMINI_API_KEY` se
 | 17 | media.py ROI calculator | Labelled example inputs; the one-month reference figure marked ASSUMED | Rule 5 | Claude |
 | 18 | engine/run.py | A refused rebuild now deletes any older pack | Bug: an old approved pack could otherwise stay releasable | Claude |
 
+| 19 | 04_case_study.md | Removed writer-process heading note; detention wording no longer says Finance "measured" the September figure | Clean copy was leaking "traced copy / strips the tags"; Sep detention is Finance's month-end estimate [D21:L14] | Cursor, source review |
+| 20 | engine/agents/verify.py | Clean copy drops table columns that are empty after citations are stripped | Client copy had a hollow Source column of leftover tags | Cursor |
+| 21 | engine/agents/viewer.py | Citation hover tips marked aria-hidden | Screen readers concatenated D24:L5-20 with 07_data/... into a malformed tag | Cursor |
+
 No number in any output was typed by hand: all come from `calc_ledger.md` or a cited source line.

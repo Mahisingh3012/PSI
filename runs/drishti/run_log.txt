@@ -1,13 +1,13 @@
-11:24:29 [1 librarian] indexed 42 files
-11:24:29 [2 rules] RECORDED output replayed: 02_rules_and_terms.json (set GEMINI_API_KEY in .env for a live run)
-11:24:29 [3 results-spec] RECORDED output replayed: 03_metric_spec.json (set GEMINI_API_KEY in .env for a live run)
-11:24:30 [4 calculator] 44 numbers computed with working -> calc_ledger.md
-11:24:30 [5 exposure] machine pass: 622 hits -> exposure_scan.md
-11:24:30 [6 writer:01_story_spine.md] RECORDED output replayed: 01_story_spine.md (set GEMINI_API_KEY in .env for a live run)
-11:24:30 [6 writer:02_results_sheet.md] RECORDED output replayed: 02_results_sheet.md (set GEMINI_API_KEY in .env for a live run)
-11:24:30 [6 writer:03_exposure_report.md] RECORDED output replayed: 03_exposure_report.md (set GEMINI_API_KEY in .env for a live run)
-11:24:30 [6 writer:04_case_study.md] RECORDED output replayed: 04_case_study.md (set GEMINI_API_KEY in .env for a live run)
-11:24:30 [6 writer:06_approval_request.md] RECORDED output replayed: 06_approval_request.md (set GEMINI_API_KEY in .env for a live run)
-11:24:32 [6 media] 5 assets made from data, metadata stripped: chart_gate_turnaround_attribution.png, chart_ppe_compliance_by_cohort.png, diagram_onprem_architecture.png, illustration_alert_flow.png, roi_calculator.html
-11:24:32 [7 verifier] 0 untraceable/unsafe items -> verifier_report.md
-11:24:32 [8 gate] pack assembled, sha256 886afcdc82f83917...; STOPPED for human approval (python engine/run.py approve --project drishti --stage internal ...)
+01:09:23 [1 librarian] indexed 42 files
+01:09:23 [2 rules] RECORDED output replayed: 02_rules_and_terms.json (set GEMINI_API_KEY in .env for a live run)
+01:09:23 [3 results-spec] RECORDED output replayed: 03_metric_spec.json (set GEMINI_API_KEY in .env for a live run)
+01:09:23 [4 calculator] 44 numbers computed with working -> calc_ledger.md
+01:09:23 [5 exposure] machine pass: 622 hits -> exposure_scan.md
+01:09:23 [6 writer:01_story_spine.md] RECORDED output replayed: 01_story_spine.md (set GEMINI_API_KEY in .env for a live run)
+01:09:23 [6 writer:02_results_sheet.md] RECORDED output replayed: 02_results_sheet.md (set GEMINI_API_KEY in .env for a live run)
+01:09:23 [6 writer:03_exposure_report.md] RECORDED output replayed: 03_exposure_report.md (set GEMINI_API_KEY in .env for a live run)
+01:09:23 [6 writer:04_case_study.md] RECORDED output replayed: 04_case_study.md (set GEMINI_API_KEY in .env for a live run)
+01:09:23 [6 writer:06_approval_request.md] RECORDED output replayed: 06_approval_request.md (set GEMINI_API_KEY in .env for a live run)
+01:09:24 [6 media] 5 assets made from data, metadata stripped: chart_gate_turnaround_attribution.png, chart_ppe_compliance_by_cohort.png, diagram_onprem_architecture.png, illustration_alert_flow.png, roi_calculator.html
+01:09:24 [7 verifier] 0 untraceable/unsafe items -> verifier_report.md
+01:09:24 [8 gate] pack assembled, sha256 a7fc318a48a944cb...; STOPPED for human approval (python engine/run.py approve --project drishti --stage internal ...)

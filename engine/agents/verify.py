@@ -127,4 +127,57 @@ def verify(text, index, ledger, banned=(), outward=False):
 def strip_citations(text):
     """Clean copy for the client/public: remove citation tags (the traced copy is kept as the record)."""
     text = CITE.sub("", text).replace("[NO-CLAIM]", "")
-    return re.sub(r"[ \t]+([.,;:])", r"\1", re.sub(r"[ \t]{2,}", " ", text))
+    text = re.sub(r"[ \t]+([.,;:])", r"\1", re.sub(r"[ \t]{2,}", " ", text))
+    text = re.sub(r"[ \t]+(\n|$)", r"\1", text)
+    return _drop_empty_table_columns(text)
+
+
+def _drop_empty_table_columns(text):
+    """After citations are stripped, drop table columns that are now empty (usually Source)."""
+    lines = text.splitlines(keepends=True)
+    out, i = [], 0
+    while i < len(lines):
+        if not lines[i].lstrip().startswith("|"):
+            out.append(lines[i])
+            i += 1
+            continue
+        block, i = _table_block(lines, i)
+        out.extend(_trim_empty_cols(block))
+    return "".join(out)
+
+
+def _table_block(lines, i):
+    start = i
+    while i < len(lines) and lines[i].lstrip().startswith("|"):
+        i += 1
+    return lines[start:i], i
+
+
+def _trim_empty_cols(block):
+    parsed = []
+    for line in block:
+        nl = "\n" if line.endswith("\n") else ""
+        raw = line[:-1] if nl else line
+        cells = [c.strip() for c in raw.strip().strip("|").split("|")]
+        parsed.append((cells, nl))
+    if not parsed:
+        return block
+    ncols = max(len(p[0]) for p in parsed)
+    for cells, _ in parsed:
+        cells.extend([""] * (ncols - len(cells)))
+
+    def is_sep(cells):
+        return bool(cells) and all(re.fullmatch(r":?-{1,}:?", c.replace(" ", "") or "-") for c in cells)
+
+    body = [cells for cells, _ in parsed if cells and not is_sep(cells)]
+    if len(body) < 2:
+        return block
+    header, rows = body[0], body[1:]
+    drop = {c for c in range(ncols) if all(not row[c] for row in rows)}
+    if not drop:
+        return block
+    rebuilt = []
+    for cells, nl in parsed:
+        kept = [cells[c] for c in range(len(cells)) if c not in drop]
+        rebuilt.append("| " + " | ".join(kept) + " |" + nl if kept else nl)
+    return rebuilt
