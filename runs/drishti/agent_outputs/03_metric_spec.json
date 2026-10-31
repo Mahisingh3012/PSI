@@ -1,0 +1,675 @@
+{
+ "_note": "Written by the Results agent (prompt 03_results.md) from BRD v2 s4 [D06:L40-47], CR-03 [D07:L24-27] and the data dictionary [D24]. Executed by engine/agents/calc.py.",
+ "calcs": [
+  {
+   "id": "walk_q4",
+   "label": "Manual safety-walk PPE compliance, Q4 2025 (announced walks, reference only)",
+   "op": "ratio_of_sums",
+   "file": "07_data/baseline_manual_safety_walks_2025Q4.csv",
+   "num": "fully_compliant",
+   "den": "people_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "walk_q4_people",
+   "label": "People observed on Q4 2025 walks",
+   "op": "sum",
+   "file": "07_data/baseline_manual_safety_walks_2025Q4.csv",
+   "col": "people_observed",
+   "round": 0
+  },
+  {
+   "id": "k1_base",
+   "label": "K1 PPE compliance, pilot cameras, pilot weeks 1-2 (BRD baseline)",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-05-11",
+      "2026-05-18"
+     ]
+    }
+   },
+   "num": "ppe_compliant",
+   "den": "persons_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k1_final",
+   "label": "K1 PPE compliance, pilot cameras, last 4 pilot weeks (8 Jun-3 Jul)",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-06-08",
+      "2026-06-29"
+     ]
+    }
+   },
+   "num": "ppe_compliant",
+   "den": "persons_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k1_gain_pts",
+   "label": "K1 change, percentage points",
+   "op": "diff",
+   "from": "k1_base",
+   "to": "k1_final",
+   "unit": " pts"
+  },
+  {
+   "id": "k1_pilot_sep",
+   "label": "PPE compliance, 40 pilot cameras, last 4 weeks (31 Aug-27 Sep)",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-08-31",
+      "2026-09-21"
+     ]
+    }
+   },
+   "num": "ppe_compliant",
+   "den": "persons_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k1_scale_sep",
+   "label": "PPE compliance, 106 scale cameras, last 4 weeks",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "scale",
+    "week_start": {
+     "between": [
+      "2026-08-31",
+      "2026-09-21"
+     ]
+    }
+   },
+   "num": "ppe_compliant",
+   "den": "persons_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k1_scale_first",
+   "label": "PPE compliance, scale cameras, first week live (6 Jul)",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "scale",
+    "week_start": "2026-07-06"
+   },
+   "num": "ppe_compliant",
+   "den": "persons_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k1_all_sep",
+   "label": "PPE compliance, all 146 cameras, last 4 weeks",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "week_start": {
+     "between": [
+      "2026-08-31",
+      "2026-09-21"
+     ]
+    }
+   },
+   "num": "ppe_compliant",
+   "den": "persons_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "packing_best",
+   "label": "Packing zone only, best pilot week (29 Jun) - NOT a pilot KPI",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "zone": "packing",
+    "week_start": "2026-06-29"
+   },
+   "num": "ppe_compliant",
+   "den": "persons_observed",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k2_base",
+   "label": "K2 restricted-zone breaches per 1,000 camera-hours, pilot weeks 1-2",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-05-11",
+      "2026-05-18"
+     ]
+    }
+   },
+   "num": "restricted_zone_breaches",
+   "den": "camera_hours",
+   "scale": 1000,
+   "round": 2
+  },
+  {
+   "id": "k2_final",
+   "label": "K2 breaches per 1,000 camera-hours, last 4 pilot weeks",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-06-08",
+      "2026-06-29"
+     ]
+    }
+   },
+   "num": "restricted_zone_breaches",
+   "den": "camera_hours",
+   "scale": 1000,
+   "round": 2
+  },
+  {
+   "id": "k2_change",
+   "label": "K2 change over pilot",
+   "op": "pct_change",
+   "from": "k2_base",
+   "to": "k2_final",
+   "unit": "%",
+   "round": 0
+  },
+  {
+   "id": "k2_sep",
+   "label": "Breaches per 1,000 camera-hours, pilot cameras, last 4 weeks (after guards + pre-zone)",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-08-31",
+      "2026-09-21"
+     ]
+    }
+   },
+   "num": "restricted_zone_breaches",
+   "den": "camera_hours",
+   "scale": 1000,
+   "round": 2
+  },
+  {
+   "id": "k2_change_sep",
+   "label": "Breach-rate change, pilot baseline to Sep",
+   "op": "pct_change",
+   "from": "k2_base",
+   "to": "k2_sep",
+   "unit": "%",
+   "round": 0
+  },
+  {
+   "id": "k3_week1",
+   "label": "Median ack, pilot week 1 (mean of zone medians)",
+   "op": "mean",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": "2026-05-11"
+   },
+   "col": "median_ack_minutes",
+   "unit": " min"
+  },
+  {
+   "id": "k3_final_alertw",
+   "label": "K3 ack time, last 4 pilot weeks, alert-weighted mean of zone medians (proxy)",
+   "op": "weighted_mean",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-06-08",
+      "2026-06-29"
+     ]
+    }
+   },
+   "col": "median_ack_minutes",
+   "weight": "alerts_raised",
+   "unit": " min",
+   "note": "Reproduces the signed certificate's 4.9 min [D10:L14]. Export holds zone-week medians only, so this is the alert-weighted proxy."
+  },
+  {
+   "id": "k3_last_week",
+   "label": "Median ack, final pilot week (29 Jun), mean of zone medians",
+   "op": "mean",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": "2026-06-29"
+   },
+   "col": "median_ack_minutes",
+   "unit": " min"
+  },
+  {
+   "id": "k3_sep",
+   "label": "Median ack, pilot cameras, last 4 weeks (Sep), mean of zone medians",
+   "op": "mean",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-08-31",
+      "2026-09-21"
+     ]
+    }
+   },
+   "col": "median_ack_minutes",
+   "unit": " min"
+  },
+  {
+   "id": "k4_prefix",
+   "label": "False-alarm share, pilot weeks 1-5 (before retrain v1.3)",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-05-11",
+      "2026-06-08"
+     ]
+    }
+   },
+   "num": "alerts_false_verified",
+   "den": "alerts_raised",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k4_final",
+   "label": "K4 false alarms, last 2 pilot weeks (EHS sample)",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": {
+     "between": [
+      "2026-06-22",
+      "2026-06-29"
+     ]
+    }
+   },
+   "num": "alerts_false_verified",
+   "den": "alerts_raised",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "k4_sep",
+   "label": "False alarms, all cameras, last 4 weeks",
+   "op": "ratio_of_sums",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "week_start": {
+     "between": [
+      "2026-08-31",
+      "2026-09-21"
+     ]
+    }
+   },
+   "num": "alerts_false_verified",
+   "den": "alerts_raised",
+   "scale": 100,
+   "unit": "%"
+  },
+  {
+   "id": "alerts_w1",
+   "label": "Alerts raised, pilot week 1",
+   "op": "sum",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": "2026-05-11"
+   },
+   "col": "alerts_raised",
+   "round": 0
+  },
+  {
+   "id": "alerts_w8",
+   "label": "Alerts raised, pilot week 8",
+   "op": "sum",
+   "file": "07_data/viewos_weekly_zone_metrics.csv",
+   "where": {
+    "camera_cohort": "pilot",
+    "week_start": "2026-06-29"
+   },
+   "col": "alerts_raised",
+   "round": 0
+  },
+  {
+   "id": "tat_manual",
+   "label": "Truck turnaround, manual gate register Jun-Jul (K5 baseline, rounded to 5 min, 6 days missing)",
+   "op": "mean",
+   "file": "07_data/gate_truck_turnaround_daily.csv",
+   "where": {
+    "date": {
+     "between": [
+      "2026-06-01",
+      "2026-07-31"
+     ]
+    },
+    "avg_turnaround_min": {
+     "notna": true
+    }
+   },
+   "col": "avg_turnaround_min",
+   "unit": " min"
+  },
+  {
+   "id": "tat_v_first",
+   "label": "Truck turnaround, ANPR, 3-16 Aug (before weighbridge 2)",
+   "op": "mean",
+   "file": "07_data/gate_truck_turnaround_daily.csv",
+   "where": {
+    "date": {
+     "between": [
+      "2026-08-03",
+      "2026-08-16"
+     ]
+    }
+   },
+   "col": "avg_turnaround_min",
+   "unit": " min"
+  },
+  {
+   "id": "tat_v_wb",
+   "label": "Truck turnaround, ANPR, 18-24 Aug (weighbridge 2 live, no slots)",
+   "op": "mean",
+   "file": "07_data/gate_truck_turnaround_daily.csv",
+   "where": {
+    "date": {
+     "between": [
+      "2026-08-18",
+      "2026-08-24"
+     ]
+    }
+   },
+   "col": "avg_turnaround_min",
+   "unit": " min"
+  },
+  {
+   "id": "tat_v_slots",
+   "label": "Truck turnaround, ANPR, 25 Aug-30 Sep (dispatch slots from queue view)",
+   "op": "mean",
+   "file": "07_data/gate_truck_turnaround_daily.csv",
+   "where": {
+    "date": {
+     "between": [
+      "2026-08-25",
+      "2026-09-30"
+     ]
+    }
+   },
+   "col": "avg_turnaround_min",
+   "unit": " min"
+  },
+  {
+   "id": "tat_k5_vs_manual",
+   "label": "K5 turnaround change vs manual baseline",
+   "op": "pct_change",
+   "from": "tat_manual",
+   "to": "tat_v_slots",
+   "unit": "%",
+   "round": 0
+  },
+  {
+   "id": "tat_k5_vs_anpr",
+   "label": "Turnaround change vs first 2 ANPR weeks (same instrument)",
+   "op": "pct_change",
+   "from": "tat_v_first",
+   "to": "tat_v_slots",
+   "unit": "%",
+   "round": 0
+  },
+  {
+   "id": "tat_wb_effect",
+   "label": "Minutes removed in weighbridge-2 window",
+   "op": "diff",
+   "from": "tat_v_wb",
+   "to": "tat_v_first",
+   "unit": " min"
+  },
+  {
+   "id": "tat_slot_effect",
+   "label": "Minutes removed after dispatch slots",
+   "op": "diff",
+   "from": "tat_v_slots",
+   "to": "tat_v_wb",
+   "unit": " min"
+  },
+  {
+   "id": "det_base",
+   "label": "Detention paid, Jun-Jul average (SAP, per Finance)",
+   "op": "formula",
+   "inputs": [],
+   "constants": {
+    "jun": 11.8,
+    "jul": 12.4
+   },
+   "expr": "(jun+jul)/2",
+   "unit": " lakh/month",
+   "note": "Inputs from Finance email [D21:L10] / QBR [D14:L29]"
+  },
+  {
+   "id": "det_sep",
+   "label": "Detention, September (Finance estimate to month end)",
+   "op": "formula",
+   "inputs": [],
+   "constants": {
+    "sep": 3.9
+   },
+   "expr": "sep",
+   "unit": " lakh/month",
+   "assumed": true,
+   "note": "Finance projection made on 22 Sep, not a closed month [D21:L10]"
+  },
+  {
+   "id": "det_saving_m",
+   "label": "Detention reduction per month",
+   "op": "diff",
+   "from": "det_sep",
+   "to": "det_base",
+   "unit": " lakh/month"
+  },
+  {
+   "id": "det_saving_y",
+   "label": "Detention reduction annualised, IF September holds",
+   "op": "formula",
+   "inputs": [
+    "det_saving_m"
+   ],
+   "expr": "det_saving_m*12",
+   "unit": " lakh/year",
+   "round": 0,
+   "assumed": true,
+   "note": "One month is not a trend (Finance) [D21:L13]"
+  },
+  {
+   "id": "total_cost",
+   "label": "Project spend excl. AMC (PoC + pilot after CR-02 + plant-wide)",
+   "op": "formula",
+   "inputs": [],
+   "constants": {
+    "poc": 6.5,
+    "pilot": 20.4,
+    "scale": 80.8
+   },
+   "expr": "poc+pilot+scale",
+   "unit": " lakh",
+   "note": "[D21:L22]"
+  },
+  {
+   "id": "payback_half_noamc",
+   "label": "Payback months, half of detention reduction credited, AMC not netted (Finance's simple view)",
+   "op": "formula",
+   "inputs": [
+    "total_cost",
+    "det_saving_m"
+   ],
+   "constants": {
+    "share": 0.5
+   },
+   "expr": "total_cost/(det_saving_m*share)",
+   "unit": " months",
+   "round": 0,
+   "assumed": true,
+   "note": "Matches Finance 'a little over two years' [D21:L24]"
+  },
+  {
+   "id": "payback_half",
+   "label": "Payback months, half of detention reduction credited to the project, AMC netted",
+   "op": "formula",
+   "inputs": [
+    "total_cost",
+    "det_saving_m"
+   ],
+   "constants": {
+    "share": 0.5,
+    "amc_m": 1.0
+   },
+   "expr": "total_cost/(det_saving_m*share-amc_m)",
+   "unit": " months",
+   "round": 0,
+   "assumed": true,
+   "note": "50% attribution is Finance's illustrative split, not measured"
+  },
+  {
+   "id": "lti_2025",
+   "label": "Lost-time injuries 2025",
+   "op": "sum",
+   "file": "07_data/ehs_register_monthly_2025_2026.csv",
+   "where": {
+    "month": {
+     "between": [
+      "2025-01",
+      "2025-12"
+     ]
+    }
+   },
+   "col": "lost_time_injuries",
+   "round": 0
+  },
+  {
+   "id": "lti_since_mar26",
+   "label": "Lost-time injuries Mar-Sep 2026",
+   "op": "sum",
+   "file": "07_data/ehs_register_monthly_2025_2026.csv",
+   "where": {
+    "month": {
+     "between": [
+      "2026-03",
+      "2026-09"
+     ]
+    }
+   },
+   "col": "lost_time_injuries",
+   "round": 0
+  },
+  {
+   "id": "survey_useful",
+   "label": "Supervisor survey: alerts useful (1-5), n=18",
+   "op": "mean",
+   "file": "07_data/supervisor_survey_sep2026.csv",
+   "col": "alerts_useful_1to5",
+   "round": 1,
+   "note": "Comments of S15-S18 duplicate S01-S04 verbatim: possible transcription error, comments not quoted"
+  },
+  {
+   "id": "survey_noise",
+   "label": "Supervisor survey: noise (1-5, lower is better)",
+   "op": "mean",
+   "file": "07_data/supervisor_survey_sep2026.csv",
+   "col": "noise_1to5",
+   "round": 1
+  },
+  {
+   "id": "survey_recommend",
+   "label": "Supervisors who would recommend to another unit (of 18)",
+   "op": "count",
+   "file": "07_data/supervisor_survey_sep2026.csv",
+   "where": {
+    "would_recommend_other_unit": "Yes"
+   },
+   "round": 0
+  }
+ ],
+ "headline": [
+  {
+   "label": "PPE compliance, pilot",
+   "from": "k1_base",
+   "to": "k1_final",
+   "target": "90%",
+   "status": "met",
+   "note": "camera-measured, BRD definition"
+  },
+  {
+   "label": "PPE, pilot areas in Sep",
+   "to": "k1_pilot_sep",
+   "status": "held",
+   "note": "three months after the pilot"
+  },
+  {
+   "label": "Restricted-zone breaches",
+   "from": "k2_base",
+   "to": "k2_final",
+   "delta": "k2_change",
+   "target": "-50%",
+   "status": "missed",
+   "note": "-77% by Sep after client guards"
+  },
+  {
+   "label": "Alert acknowledgement",
+   "from": "k3_week1",
+   "to": "k3_final_alertw",
+   "target": "3.0 min",
+   "status": "missed",
+   "note": "about 2.1 min by Sep with phone escalation"
+  },
+  {
+   "label": "False alarms",
+   "from": "k4_prefix",
+   "to": "k4_final",
+   "target": "<10%",
+   "status": "met",
+   "note": "checked by client EHS sample"
+  },
+  {
+   "label": "Truck turnaround",
+   "from": "tat_v_first",
+   "to": "tat_v_slots",
+   "delta": "tat_k5_vs_anpr",
+   "target": "-15%",
+   "status": "met",
+   "note": "credit shared: weighbridge + dispatch slots"
+  }
+ ]
+}
